@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/** Sans Forgetica - Designed to assist memory recall* https://sansforgetica.rmit/*/
+@import url('https://fonts.cdnfonts.com/css/sans-forgetica');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+/** [Modified] Modern CSS Reset* @link https://github.com/hankchizljaw/modern-css-reset*/
+/* Box sizing rules */
+*,*::before,*::after {
+	box-sizing: border-box;
+}
+/* Remove default margin */
+body,h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+}
+html {
+	overflow-x: hidden;
+}
+/** Set core body defaults* Colors chosen to maximise readability: https://www.viget.com/articles/color-contrast/*/
+body {
+	min-height: 100vh;
+	font-size: 100%;
+	line-height: 1.5;
+	text-rendering: optimizeSpeed;
+	overflow-x: hidden;
+	padding: 8px;
+	font-family: 'Inter', sans-serif;
+	background-color: #093145;
+  color: #F2F3F4;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+a {
+	color: #EFD469;
+}
+a:visited {
+	color: #F58B4C;
+}
+img {
+	display: none;
+}
+svg {
+	display: none;
+}
+input,button,textarea,select {
+	font: inherit;
+}
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+	* {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}
+header {
+	display: none;
+}
+#guidelines {
+	display: none;
+}
+#contribute {
+	display: none;
+}
+section:nth-child(2) {
+	display: none;
+}
+p:nth-child(3) {
+	display: none;
+}
+#about {
+	font-family: 'Sans Forgetica', sans-serif;
+	font-size: 1.5rem;
+	padding-top: 16px;
+}
+blockquote {
+	display: none;
+}
+#about a {
+	font-size: 150%;
+}
+aside {
+	padding-top: 16px;
+}
+li {
+	list-style: none;
+}
+nav ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	padding-left: 0;
+}
+nav li {
+	display: inline-block;
+	width: calc(100% / 6);
+	min-width: 100px;
+	text-align: center;
+}
+.skip-link {
+	display: none;
+}
+#profile-title {
+	font-size: 1.5rem;
+}
