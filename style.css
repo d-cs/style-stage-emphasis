@@ -35,11 +35,8 @@ a {
 a:visited {
 	color: #F58B4C;
 }
-img {
-	display: none;
-}
-svg {
-	display: none;
+svg{
+  display: none;
 }
 input,button,textarea,select {
 	font: inherit;
@@ -53,39 +50,16 @@ input,button,textarea,select {
 		scroll-behavior: auto !important;
 	}
 }
-header {
-	display: none;
-}
-#guidelines {
-	display: none;
-}
-#contribute {
-	display: none;
-}
-section:nth-child(2) {
-	display: none;
-}
-p:nth-child(3) {
-	display: none;
-}
-#about {
+#about section:nth-child(1) p:nth-child(2) {
 	font-family: 'Sans Forgetica', sans-serif;
-	font-size: 1.5rem;
+	font-size: 2.5rem;
 	padding-top: 16px;
-}
-blockquote {
-	display: none;
-}
-#about a {
-	font-size: 150%;
 }
 aside {
 	padding-top: 16px;
 }
-li {
-	list-style: none;
-}
 nav ul {
+  list-style: none;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -97,9 +71,6 @@ nav li {
 	width: calc(100% / 6);
 	min-width: 100px;
 	text-align: center;
-}
-.skip-link {
-	display: none;
 }
 #profile-title {
 	font-size: 1.5rem;
